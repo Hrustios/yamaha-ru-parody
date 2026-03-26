@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: cursive;
+  background: #c40909; /*сделано для отладки на этапе создания сайта */
+}
+header {
+  display: flex;
+  font-size: larger;
+  justify-content: space-between;
+  background: #000;
+  color: #fff;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+nav a {
+  color: #fff;
+  margin: 5px;
+  text-decoration: none;
+}
+.slider img {
+  display: none;
+  width: 100%;
+  max-height:40vw;
+  object-fit: cover;
+}
+.slider img.active {
+  display: block;
+}
+.мысль{
+    color: white;
+    position: absolute;
+    margin: 1.5% 0 0 5%;
+}
+#bottom-footer{
+    color:#ffffff8e;
+    text-align: left;
+    padding: 1vw 0 0 1% ;
+}
+.catalog {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 12vw;
+  object-fit: cover;
+}
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
