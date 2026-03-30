@@ -6,7 +6,7 @@
     <title>Каталог</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="catalog-body">
     <header>
       <div class="logo">Yamaha</div>
       <nav>
@@ -21,32 +21,55 @@
     </section>
     <section class="catalog">
       <div class="card">
-        <img src="img/r1.jpg" />
+        <img src="img/r1.jpg" class="img-catalog" />
         <h3>Yamaha R1</h3>
       </div>
       <div class="card">
-        <img src="img/mt09.jpg" />
+        <img src="img/mt09.jpg" class="img-catalog" />
         <h3>MT-09</h3>
       </div>
       <div class="card">
-        <img src="img/tracer.jpg" />
+        <img src="img/tracer.jpg" class="img-catalog" />
         <h3>Tracer 9</h3>
       </div>
     </section>
     <section class="presentation-title">
       <h1>Список дилеров</h1>
     </section>
-    <section id="diler-cards"></section>
-    <div class="d_card">
-      <h2>Название</h2>
-      <div>
-        <h3>Адрес:</h3>
-        <p>адрес</p>
+    <section id="diler-cards">
+      <div class="d_card">
+        <h2>ООО "НПП "Жест"</h2>
+        <div>
+          <h3>Адрес:</h3>
+          <p>г. Москва, ул. Гидрогородок, д. 9</p>
+        </div>
+        <div>
+          <h3 class="phone-number">Контактный телефон:</h3>
+          <p>+7 (495) 522-09-91</p>
+        </div>
       </div>
-      <div>
-        <h3>Контактный телефон:</h3>
-        <p>номер</p>
+      <div class="d_card">
+        <h2>ООО "Интер Трейд"</h2>
+        <div>
+          <h3>Адрес:</h3>
+          <p>г.Москва, Проспект Мира, д. 163</p>
+        </div>
+        <div>
+          <h3 class="phone-number">Контактный телефон:</h3>
+          <p>+7 (495) 926-52-01</p>
+        </div>
       </div>
-    </div>
+      <div class="d_card">
+        <h2>ООО "Алма"</h2>
+        <div>
+          <h3>Адрес:</h3>
+          <p>г. Волгоград, ул. Землячки, д. 11</p>
+        </div>
+        <div>
+          <h3 class="phone-number">Контактный телефон:</h3>
+          <p>+ 7 (909) 393-87-33</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

@@ -17,24 +17,29 @@ nav a {
   margin: 5px;
   text-decoration: none;
 }
+img {
+  pointer-events: none;
+  user-select: none;
+}
+
 .slider img {
   display: none;
   width: 100%;
-  max-height:40vw;
+  max-height: 40vw;
   object-fit: cover;
 }
 .slider img.active {
   display: block;
 }
-.мысль{
-    color: white;
-    position: absolute;
-    margin: 1.5% 0 0 5%;
+.мысль {
+  color: white;
+  position: absolute;
+  margin: 1.5% 0 0 5%;
 }
-#bottom-footer{
-    color:#ffffff8e;
-    text-align: left;
-    padding: 1vw 0 0 1% ;
+#bottom-footer {
+  color: #ffffff8e;
+  text-align: left;
+  padding: 1vw 0 0 1%;
 }
 .catalog {
   display: flex;
@@ -46,6 +51,9 @@ nav a {
 .card {
   width: 300px;
   text-align: center;
+}
+.img-catalog {
+  border-radius: 1rem;
 }
 .card img {
   width: 100%;
@@ -69,4 +77,40 @@ footer {
     flex-direction: column;
     text-align: center;
   }
+}
+
+#diler-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#diler-cards div {
+  background-color: #1f1933;
+  padding: 2%;
+  margin: 1%;
+}
+.d_card {
+  border-radius: 1rem;
+}
+.d_card div {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.phone-number {
+  max-width: 50%;
+}
+.d_card > * {
+  margin: 0;
+  padding: 0;
+}
+
+#catalog-body {
+  color: whitesmoke;
+  background-color: #020002;
+}
+
+#catalog-body h1 {
+  text-align: center;
 }
