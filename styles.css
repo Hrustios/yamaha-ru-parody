@@ -114,3 +114,16 @@ footer {
 #catalog-body h1 {
   text-align: center;
 }
+
+#body-about{
+  font-family: cursive;
+  color:azure;
+  background-color: #102;
+}
+
+.about{
+  padding: 10%;
+}
+.about p{
+  font-size: 150%;
+}
