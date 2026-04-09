@@ -110,7 +110,7 @@ footer {
 }
 
 .about {
-  padding: 10%;
+  padding: 5% 10% 0 10%;
 }
 .about p {
   font-size: 150%;
@@ -147,6 +147,42 @@ main {
   color: white;
   font-size: 40px;
   cursor: pointer;
+}
+.contact-form {
+  padding: 5%;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.contact-form button {
+  padding: 10px;
+  background: #6a00ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #8a2cff;
+}
+
+#form-status {
+  margin-top: 10px;
 }
 
 @media (orientation: portrait) {
